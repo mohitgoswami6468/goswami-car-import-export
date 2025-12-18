@@ -10,3 +10,12 @@ faqButtons.forEach(btn => {
         answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
     });
 });
+const faqCards = document.querySelectorAll(".faq-card");
+
+faqCards.forEach(card => {
+  card.addEventListener("click", () => {
+    const answer = card.querySelector(".answer");
+    const isVisible = answer.style.display === "block";
+    answer.style.display = isVisible ? "none" : "block";
+  });
+});

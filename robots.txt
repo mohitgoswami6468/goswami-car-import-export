@@ -1,0 +1,7 @@
+# robots.txt - Allow All
+
+User-agent: *
+Disallow:
+
+# Sitemap location (optional but recommended)
+Sitemap:https://goswamicargocarriers.netlify.app/sitemap.xml

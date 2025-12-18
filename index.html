@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <body>
 <head>
     <meta charset="UTF-8">
     <title>Goswami Car Import Export</title>
@@ -44,8 +45,8 @@
     </div>
     
         <div class="hero-text">
-    <h1>Global Car Import & Export Services across India</h1>
-    <p>Trusted solutions for international vehicle trading, secure documentation, and timely delivery.</p>
+    <h1> Car Import & Export Services across India</h1>
+    <p>Trusted Company for your car transportation safely, secure documentation, and timely delivery.</p>
     <a href="contact.html" class="btn"> Direct Contact</a>
 </div>
 
@@ -72,52 +73,111 @@
         </div>
     </div>
 </section>
-<!-- FAQ SECTION -->
-<section class="faq">
-    <h2>Frequently Asked Questions</h2>
-    <p class="faq-sub">
-        Here are answers to some common questions about our car import & export services.
-    </p>
-
-    <div class="faq-item">
-        <button class="faq-question">How long does delivery take?</button>
-        <div class="faq-answer">
-            <p>Delivery time depends on the type of car and destination country, usually between 7-10 days.</p>
-        </div>
-    </div>
-
-    <div class="faq-item">
-        <button class="faq-question">What documents are required?</button>
-        <div class="faq-answer">
-            <p>We guide you through all necessary documents including invoice, registration papers, and customs clearance forms.</p>
-        </div>
-    </div>
-
-    <div class="faq-item">
-        <button class="faq-question">Is international shipping safe?</button>
-        <div class="faq-answer">
-            <p>Yes, we use insured shipping and secure logistics to ensure safe delivery across india.</p>
-        </div>
-    </div>
-
-    <div class="faq-item">
-        <button class="faq-question">Do you handle customs clearance?</button>
-        <div class="faq-answer">
-            <p>Yes, our team handles all customs clearance procedures, making the process hassle-free for our clients.</p>
-        </div>
-    </div>
-</section>
-
+<div class="section-divider"></div>
 <!-- WHY CHOOSE US -->
-<section class="why">
-    <h2>Why Choose Us?</h2>
-    <div class="why-box">
-        
-        <p>✔ Time to Time Delivery</p>
-        <p>✔ Experienced Drivers</p>
-        <p>✔ Customer satisfaction</p>
+<section class="why-choose-us">
+    <h2>Why Choose Us</h2>
+
+<div class="why-cards">
+
+  <div class="why-card">
+    <span>🚗</span>
+    <h3>Experience</h3>
+    <p>Years of experience in car import & export services</p>
+  </div>
+
+  <div class="why-card">
+    <span>📄</span>
+    <h3>Legal Documentation</h3>
+    <p>Complete customs & legal paperwork handled</p>
+  </div>
+
+  <div class="why-card">
+    <span>🚢</span>
+    <h3>Safe Shipping</h3>
+    <p>Secure vehicle transportation worldwide</p>
+  </div>
+
+  <div class="why-card">
+    <span>🤝</span>
+    <h3>Trusted Service</h3>
+    <p>Customer satisfaction & on-time delivery</p>
+  </div>
+  
+<section class="process">
+  <h2>How We Work</h2>
+
+  <div class="why-cards">
+
+    <div class="why-card">
+      <span>📝</span>
+      <h3>Inquiry</h3>
+      <p>Customer sends vehicle import/export request</p>
     </div>
+
+    <div class="why-card">
+      <span>📄</span>
+      <h3>Documentation</h3>
+      <p>Legal papers & customs clearance</p>
+    </div>
+
+    <div class="why-card">
+      <span>🚢</span>
+      <h3>Shipping</h3>
+      <p>Safe and secure vehicle transportation</p>
+    </div>
+
+    <div class="why-card">
+      <span>🏁</span>
+      <h3>Delivery</h3>
+      <p>On-time delivery at port or doorstep</p>
+    </div>
+
+  </div>
 </section>
+
+ 
+  
+</section>
+<div class="section-divider"></div>
+
+<!-- FAQ SECTION -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="why-cards"> <!-- same class as other cards -->
+
+    <div class="why-card">
+      <h3>How long does delivery take?</h3>
+      <p>Delivery usually takes 5–10 business days depending on location.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>What documents are required?</h3>
+      <p>Invoice, registration, ID proof, and insurance papers are required.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Is international shipping safe?</h3>
+      <p>Yes! We use secure transport methods and track shipments 24/7.</p>
+    </div>
+
+    <div class="why-card">
+      <h3>Do you handle customs clearance?</h3>
+      <p>Absolutely, we manage all customs formalities for hassle-free delivery.</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+</div>
+
+ 
+</section>
+
 
 <!-- TESTIMONIALS -->
 <section class="testimonials">
@@ -127,3 +187,16 @@
            <P> "Time to Time delivery</p>
 <p>"compltely satisfaction</p>
 <script src="script.js"></script>
+<script>
+const steps = document.querySelectorAll(".step");
+
+steps.forEach(step=>{
+  step.addEventListener("click", ()=>{
+    steps.forEach(s=>s.classList.remove("active"));
+    step.classList.add("active");
+  });
+});
+</script>
+
+ </body>
+ </html>

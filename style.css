@@ -628,3 +628,151 @@ footer {
     font-size: 15px;
     color: #444;
 }
+.process{
+  max-width:900px;
+  margin:80px auto;
+  padding:20px;
+}
+
+.process h2{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:2.5rem;
+}
+
+.step{
+  display:flex;
+  gap:20px;
+  padding:20px;
+  margin-bottom:20px;
+  border-left:4px solid #ddd;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.step span{
+  font-size:1.8rem;
+  color:#ff6600;
+  font-weight:bold;
+}
+
+.step:hover{
+  background:#f9f9f9;
+  border-left-color:#ff6600;
+}
+
+.step.active{
+  background:#fff3e6;
+  border-left-color:#ff6600;
+}
+.section-divider{
+  width:80%;
+  height:2px;
+  background:linear-gradient(to right, transparent, #ff6600, transparent);
+  margin:60px auto;
+}.why-choose-us{
+  text-align:center;
+  padding:60px 20px;
+}
+
+.why-cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+  max-width:1100px;
+  margin:40px auto 0;
+}
+
+.why-card{
+  background:#fff;
+  padding:30px 20px;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  transition:0.3s ease;
+}
+
+.why-card span{
+  font-size:2rem;
+}
+
+.why-card h3{
+  margin:15px 0 10px;
+}
+
+.why-card:hover{
+  transform:translateY(-12px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+
+@media(max-width:992px){
+  .why-cards{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:576px){
+  .why-cards{
+    grid-template-columns:1fr;
+  }
+}
+/* ICON BRAND STYLE */
+.why-card span{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:60px;
+  height:60px;
+  margin-bottom:15px;
+  border-radius:50%;
+  background:#fff3e6;
+  color:#ff6600;
+  font-size:28px;
+  transition:0.3s ease;
+}
+
+/* Hover effect */
+.why-card:hover span{
+  background:#ff6600;
+  color:#fff;
+}
+.faq-card .answer{
+  display:none;
+  margin-top:10px;
+  font-size:0.95rem;
+  color:#555;
+}
+
+.faq-card{
+  background:#fff;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  transition:0.3s ease;
+  text-align:left;
+  cursor:pointer;
+}
+.why-card p{
+  font-size:0.95rem;
+  color:#555;
+  margin-top:10px;
+}
+@media(max-width:992px){
+  .why-cards{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:576px){
+  .why-cards{
+    grid-template-columns:1fr;
+  }
+}
+.why-card h3{
+  margin-bottom:10px;
+  font-size:1.2rem;
+}
+
+.why-card p{
+  font-size:1rem;
+  color:#555;
+}
